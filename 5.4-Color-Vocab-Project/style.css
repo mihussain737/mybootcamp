@@ -1,0 +1,30 @@
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+/* for all the img element and src attribute */
+img[src]{   
+    height: 200px;
+    width: 200px;
+}
+/* for only img and the src  */
+img[src="./assets/images/blue.png"]{
+    height: 200px;
+    width: 200px;
+}
+/* for all the image element */
+img {
+    height: 200px;
+    width: 200px;
+  }
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
