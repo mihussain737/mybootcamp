@@ -1,1 +1,19 @@
 /* Write your code here: */
+h1,h2{ /* selector or multiple selector*/
+    color: blueviolet;
+}
+.box>p{/* child selector box class has p element*/
+    color: firebrick;
+}
+/*descendent li only from the box*/
+.box li{
+    color: blue;
+}
+/*chaining selector, more specific*/
+li.done{
+    color: seagreen;
+}
+/*combining combiners , recomended*/
+ul p.done{
+    font-size: 0.5rem;
+}
